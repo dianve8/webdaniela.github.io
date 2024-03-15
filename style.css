@@ -1,0 +1,90 @@
+*{ /* indica que para todo el archivo*/
+    margin: 0px; /*espacio libre entre la caja y las posibles cajas adyacentes*/
+    padding: 0px; /*espacio libre entre el contenido y el borde que lo encierra*/
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;/*estilo de fuente*/
+}
+#logo{
+    float: left; /*para posicionamiento flotante*/
+}
+#container{
+    width: 100%; /*anchura*/
+    margin: 0px auto;
+    border: 1px solid white;
+}
+h1{
+    display: block;
+    height: 130px;/*altura*/
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 95px;/*altura del texto*/
+    color:blue;
+    
+}
+#h1 {
+    float: center;
+    height: 10px;
+}
+nav {
+   display: flex;
+   width: 100%;
+   height: 20px;
+   align-items: center;
+   justify-content: right;
+   padding-top: 2px;
+   font-weight: bold;
+   background-color: blue;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color:orangered;
+    text-decoration:none ;
+}
+a:hover{
+    color:aqua;
+
+}
+
+#noticias{
+    display: block; /*separa cada campo */
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    background: rgb(89, 88, 88);
+    color: white;
+    letter-spacing: 2px;
+    background-color: black;
+   
+}
+#pnoticias{
+    width: 1400px;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+article{
+    font-size: 50px;
+    text-align: center;
+}
+#colunmas{
+    width: 100px;
+    height: 50px;
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+
+}
